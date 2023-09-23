@@ -287,12 +287,6 @@ p {
 		border-left: 2px solid #7a7a7a;
 		border-right: 2px solid #7a7a7a;
 	}
-	#test {
-		padding-left: 2em;
-	}
-	#dev-gean {
-		text-align: right;
-	}
 }
 
 /* Footer-bottom */
@@ -318,6 +312,7 @@ p {
 #imgModal {
 	margin: auto;
 	display: block;
+	height: 100%;
 	width: 100%;
 	max-width: 900px;
 }
@@ -330,5 +325,11 @@ p {
 	font-size: 40px;
 	font-weight: bold;
 	cursor: pointer;
+}
 
+@media (min-width: 480px) {
+	#btFechar{
+		right: 4px;
+		top: 45px;
+	}
 }
