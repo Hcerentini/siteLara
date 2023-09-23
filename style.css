@@ -211,6 +211,17 @@ p {
 	}
 }
 
+/* Projetos Completos */
+#projetos-completos-imagens{
+	margin-top: 2em;
+}
+
+#projetos-completos-imagens .col-md-6 {
+	position: relative;
+	cursor: pointer;
+}
+
+
 /* Designer */
 #designer {
 	padding-top: 4em;
@@ -246,7 +257,7 @@ p {
 
 /* Redes Socias */
 #redes-sociais {
-	text-align: right;
+	text-align: center;
 }
 #redes-sociais i {
 	font-size: 1.5em;
@@ -277,7 +288,7 @@ p {
 
 @media (min-width: 768px) {
   #redes-sociais i {
-    margin-right: 0.45em;
+	margin-right: 0.45em;
   }
 	#cadastro {
 		padding-right: 2em;
@@ -286,6 +297,9 @@ p {
 		padding: 0 2em;
 		border-left: 2px solid #7a7a7a;
 		border-right: 2px solid #7a7a7a;
+	}
+	#test {
+		padding-left: 2em;
 	}
 }
 
@@ -327,9 +341,17 @@ p {
 	cursor: pointer;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 768px) {
 	#btFechar{
 		right: 4px;
 		top: 45px;
+	}
+
+	#imgModal {
+		margin: auto;
+		display: block;
+		height: 92%;
+		width: 95%;
+		max-width: 600px;
 	}
 }
