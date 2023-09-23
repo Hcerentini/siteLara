@@ -1,0 +1,334 @@
+.bg-primary-color {
+	background-color: #5c6641;
+}
+.bg-secondary-color {
+	background-color: black;
+}
+.primary-color {
+	color: black;
+}
+.secondary-color {
+	color: white;
+}
+.btn {
+	padding: 0.3em 0.8em;
+	font-size: 1em;
+	margin-top: 1em;
+}
+p {
+	color: gray;
+}
+.title {
+	font-size: 1.5em;
+	position: relative;
+}
+.title:before {
+	bottom: 2em;
+	width: 75px;
+	border: 2px solid gray;
+	border-radius: 100px;
+	content: "";
+	position: absolute;
+}
+
+/* links navbar */
+
+.anconhor-slider{
+  position:absolute;
+  top: 0;
+}
+.anchor-planos{
+  display: block;
+  position:absolute;
+  top:40%;
+  visibility: hidden;
+}
+.anchor-designer{
+  display: block;
+  position:absolute;
+  top: 84%;
+  visibility: hidden;
+}
+@media (min-width: 1024px) {
+	.anchor-planos{
+    top: 50%;
+  }
+}
+@media (min-width: 1440px) {
+	.anchor-planos{
+    top: 60%;
+  }
+}
+@media (min-width: 2560px) {
+	.anchor-planos{
+    top: 80%;
+  }
+}
+
+/* Navbar */
+#navbar a:hover {
+	color: gray;
+}
+#navbar a.active {
+	border-bottom: 2px solid black;
+}
+.navbar-brand img {
+	width: 40px;
+}
+#navbar-items .navbar-nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+#navbar-items .navbar-item {
+	margin: 0 1.5em;
+}
+
+/* Carrocel */
+#slider {
+	margin-bottom: 2em;
+}
+#slider .carousel-caption {
+	bottom: 4em;
+}
+#slider .carousel-caption h5 {
+	font-size: 1.5em;
+	text-shadow: black 1px 1px;
+}
+@media (min-width: 768px) {
+	#slider .carousel-caption {
+		bottom: 15em;
+	}
+	#slider .carousel-caption h5 {
+		font-size: 3em;
+	}
+	#slider .btn {
+		padding: 0.6em 1.6em;
+		font-size: 1.2em;
+		margin-top: 1em;
+	}
+	.carousel-indicators {
+		bottom: 7em;
+	}
+}
+
+/* Planos */
+#banners {
+	margin-bottom: 3em;
+}
+#banners .card {
+	padding: 1em 0.3em;
+	margin-bottom: 1em;
+}
+#banners i {
+	font-size: 3em;
+}
+#banners h5 {
+	margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+	#banners {
+		margin-top: -6em;
+	}
+}
+
+/* Projetos Destacados */
+#projetos-imagens {
+	margin-top: 2em;
+}
+
+#projetos-imagens .col-md-6 {
+	position: relative;
+	cursor: pointer;
+}
+
+#projetos-imagens .col-md-6 h3 {
+	color:black;
+}
+
+#projetos-imagens .col-md-8 {
+	position: relative;
+	cursor: pointer;
+}
+
+#projetos-imagens .col-md-8 h3 {
+	color:black;
+}
+
+#projetos-imagens .col-md-6:hover .projeto-banner {
+	opacity: 0.7;
+}
+#projetos-imagens .projeto-banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+	transition: 0.5;
+}
+
+#projetos-imagens .projeto-banner-bugado {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+	transition: 0.5;
+}
+
+#projetos-imagens .col-md-6:hover .projeto-banner-bugado {
+	opacity: 0.7;
+}
+
+#projetos-imagens a{
+	display: block; /* Defina o elemento <a> como um bloco para ocupar espaço */
+	width: 100%; /* Defina a largura para ocupar 100% do pai */
+	height: 100%; /* Defina a altura para ocupar 100% do pai */
+	
+}
+
+@media (min-width: 768px) {
+	#projetos-imagens .projeto-banner {
+		opacity: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	#projetos-imagens .projeto-banner-bugado {
+		opacity: 0;
+	}
+}
+
+/* Designer */
+#designer {
+	padding-top: 4em;
+}
+#designer-foto {
+	align-items: center;
+	display: flex;
+	margin-bottom: 1.5em;
+}
+#designer-foto img {
+	border-radius: 400px;
+}
+#designer-descricao {
+	background-color: #ecebe2;
+	padding: 4em 1em;
+	text-align: justify;
+}
+@media (min-width: 768px) {
+	#designer-descricao {
+		padding: 3em;
+	}
+	#designer-foto {
+		margin-bottom: 0;
+	}
+}
+
+/* Footer */
+#footer {
+	background-color: #5c6641;
+	margin-top: 1.75em;
+	padding: 1em 0.75em;
+}
+
+/* Redes Socias */
+#redes-sociais {
+	text-align: right;
+}
+#redes-sociais i {
+	font-size: 1.5em;
+	cursor: pointer;
+	color:black;
+}
+#contato,
+#cadastro,
+#test {
+	padding: 0;
+	border: 0;
+	margin-bottom: 2em;
+}
+
+/* Footer-detalhes */
+#footer-detalhes h4 {
+	color: black;
+	margin-bottom: 0.75em;
+}
+
+#footer-detalhes p {
+	color: black;
+}
+
+#cadastro input {
+	border: none;
+}
+
+@media (min-width: 768px) {
+  #redes-sociais i {
+    margin-right: 0.45em;
+  }
+	#cadastro {
+		padding-right: 2em;
+	}
+	#contato {
+		padding: 0 2em;
+		border-left: 2px solid #7a7a7a;
+		border-right: 2px solid #7a7a7a;
+	}
+	#test {
+		padding-left: 2em;
+	}
+	#dev-gean {
+		text-align: right;
+	}
+}
+
+/* Footer-bottom */
+#footer-bottom {
+	border-top: 20px solid #7a7a7a;
+	padding-top: 2em;
+}
+
+/* Janela Modal */
+#janelaModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	overflow: auto;
+}
+
+#imgModal {
+	margin: auto;
+	display: block;
+	width: 100%;
+	max-width: 900px;
+}
+
+#btFechar {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+	color: #5c6641;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
