@@ -214,13 +214,13 @@ p {
 /* Projetos Completos */
 #projetos-completos-imagens{
 	margin-top: 2em;
+	
 }
 
 #projetos-completos-imagens .col-md-6 {
 	position: relative;
 	cursor: pointer;
 }
-
 
 /* Designer */
 #designer {
