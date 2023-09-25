@@ -156,13 +156,12 @@
                 <div class="col-12 col-md-6">
                   <img src="./imgs/renders_4r - Photo.jpg" alt="projeto 4" class="img-fluid rounded" onclick="clique('./imgs/renders_4 - Photo.jpg')">
                 </div>
-                
-                <!-- Janelamodal -->
-                <div id="janelaModal">
-                    <span id="btFechar">[x]</span>
-                    <img id="imgModal">
-                </div>
             </div>
+                <!-- Janelamodal -->
+              <div id="janelaModal">
+                  <span id="btFechar">[x]</span>
+                  <img id="imgModal">
+              </div>
         </div>
 
 
@@ -233,7 +232,7 @@
         var modalImagem=document.getElementById("imgModal");
         var modalBotao=document.getElementById("btFechar");
 
-        modalJanela.style.display="block";
+        modalJanela.style.display="flex";
         modalImagem.src = img;
         modalBotao.onclick=function(){
         modalJanela.style.display="none";
