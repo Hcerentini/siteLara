@@ -7,10 +7,6 @@ document.addEventListener("click",function(e){
       document.querySelector(".modal-img").src = src;
       const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));   
 
-      if (mediaQuery.matches) {
-        // myModal._element.transform = 'rotate(-90deg)';
-      }
-
       myModal.show();
   }
 
