@@ -222,6 +222,22 @@ p {
 	cursor: pointer;
 }
 
+.gallery {
+	padding: 80px 0;
+}
+
+.gallery img {
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	background-color: white;
+}
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
 /* Designer */
 #designer {
 	padding-top: 4em;
