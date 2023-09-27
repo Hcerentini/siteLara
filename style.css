@@ -173,24 +173,6 @@ p {
 	transition: 0.5;
 }
 
-#projetos-imagens .projeto-banner-bugado {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 50%;
-	width: 100%;
-	background-color: #fff;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	opacity: 0.7;
-	transition: 0.5;
-}
-
-#projetos-imagens .col-md-6:hover .projeto-banner-bugado {
-	opacity: 0.7;
-}
 
 #projetos-imagens a{
 	display: block; /* Defina o elemento <a> como um bloco para ocupar espaço */
@@ -203,23 +185,6 @@ p {
 	#projetos-imagens .projeto-banner {
 		opacity: 0;
 	}
-}
-
-@media (min-width: 768px) {
-	#projetos-imagens .projeto-banner-bugado {
-		opacity: 0;
-	}
-}
-
-/* Projetos Completos */
-#projetos-completos-imagens{
-	margin-top: 2em;
-	
-}
-
-#projetos-completos-imagens .col-md-6 {
-	position: relative;
-	cursor: pointer;
 }
 
 .gallery {
@@ -242,9 +207,6 @@ p {
 	.modal-content {
 		padding: 0; 
 		margin: 0;
-		-moz-transform:rotate(-90deg);
-		-webkit-transform:rotate(-90deg);
-		-ms-transform:rotate(-90deg);
 		transform: rotate(-90deg);
 		object-fit: cover;
 	  }
@@ -286,10 +248,12 @@ p {
 
 /* Redes Socias */
 #redes-sociais {
-	text-align: center;
+}
+#redes-sociais a{
+	text-decoration: none;
 }
 #redes-sociais i {
-	font-size: 1.5em;
+	font-size: 1.35em;
 	cursor: pointer;
 	color:black;
 }
@@ -311,17 +275,10 @@ p {
 	color: black;
 }
 
-#cadastro input {
-	border: none;
-}
-
 @media (min-width: 768px) {
   #redes-sociais i {
 	margin-right: 0.45em;
   }
-	#cadastro {
-		padding-right: 2em;
-	}
 	#contato {
 		padding: 0 2em;
 		border-left: 2px solid #7a7a7a;
