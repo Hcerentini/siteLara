@@ -207,7 +207,6 @@ p {
 	.modal-content {
 		padding: 0;
 		margin: 0;
-		transform: rotate(-90deg);
 		object-fit: cover;
 	  }
 }
