@@ -17,11 +17,11 @@
   <link rel="stylesheet" href="./style.css">
 
   <!-- JavaScript do Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  <script src="jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
 
-  <link rel="JullyanaAndrade" href="./imgs/JA-icon.png" type="image/x-icon">
+  <link rel="" href="./imgs/JA-icon.png" type="image/x-icon">
   <title>Lara Michels</title>
 </head>
 
@@ -87,111 +87,52 @@
         <span class="visually-hidden">Próximo</span>
       </button>
     </section>
-    <!-- Planos -->
-    <!-- <span class="anchor-planos" id="Planos"></span> link Planos -->
-    <!-- <section>
-      <div class="container" id="banners">
-        <div class="col-12 col-md-10 offset-md-1">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <div class="card text-center">
-                <i class="bi bi-house-fill"></i>
-                <div class="card-body">
-                  <h5>Projetos Completos</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  <a href="" class="btn btn-dark">Saber Mais</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-4"> -->
-              <!-- <div class="card text-center">
-                <i class="bi bi-layers-fill"></i>
-                <div class="card-body">
-                  <h5>Projetos Unitários</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  <a href="" class="btn btn-dark">Saber Mais</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-4">
-              <div class="card text-center">
-                <i class="bi bi-lightning-fill"></i>
-                <div class="card-body">
-                  <h5>Projetos básicos</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  <a href="" class="btn btn-dark">Saber Mais</a> -->
-                  <!-- <span id="Projetos"></span> link Projetos -->
-                <!-- </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Projetos Destacados -->
-    <section>
-      <div class="container-fluid" id="projetos-completos">
+    <!-- Projeto -->
+    <section class="gallery min-vh-100">
+      <div class="container-lg">
         <div class="col-12">
-          <h2 class="title"> Projeto de Dormitório</h2>
+          <h2 class="title"> Projeto de Cozinha</h2>
         </div>
-        <div class="col-12" id="projetos-completos-imagens">
-          <!--tamanho das imagens -- ideal 640x960-->
-            <div class="row g-4">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col-12 col-md-12">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum a expedita sit veritatis velit suscipit culpa minus quisquam error maiores repellendus, aliquam fugit voluptates recusandae autem placeat quae quos.</p>
                 </div>
               
                 <div class="col-12 col-md-6">
-                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_1 - Photo.jpg" alt="projeto 1" class="img-fluid rounded" onclick="clique('./imgs/ROSANI_projeto cozinha RENDERS_1 - Photo.jpg')">
+                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_1 - Photo.jpg" alt="projeto 1" class="gallery-item rounded">
                 </div>
 
                 <div class="col-12 col-md-6">
-                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_3 - Photo.jpg" alt="projeto 2" class="img-fluid rounded" onclick="clique('./imgs/ROSANI_projeto cozinha RENDERS_3 - Photo.jpg')">
+                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_3 - Photo.jpg" alt="projeto 2" class="gallery-item rounded">
                 </div>
             
                 <div class="col-12 col-md-6">
-                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_4 - Photo.jpg" alt="projeto 3" class="img-fluid rounded" onclick="clique('./imgs/ROSANI_projeto cozinha RENDERS_4 - Photo.jpg')">
+                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_4 - Photo.jpg" alt="projeto 3" class="gallery-item rounded">
                 </div>
 
                 <div class="col-12 col-md-6">
-                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_5r2 - Photo.jpg" alt="projeto 4" class="img-fluid rounded" onclick="clique('./imgs/ROSANI_projeto cozinha RENDERS_5r2 - Photo.jpg')">
+                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_5r2 - Photo.jpg" alt="projeto 4" class="gallery-item rounded">
                 </div>
-                
+
                 <div class="col-12 col-md-6">
-                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_2 - Photo.jpg" alt="projeto 5" class="img-fluid rounded" onclick="clique('./imgs/ROSANI_projeto cozinha RENDERS_2 - Photo.jpg')">
+                  <img src="./imgs/ROSANI_projeto cozinha RENDERS_2 - Photo.jpg" alt="projeto 5" class="gallery-item rounded">
                 </div>
-
-                <!-- Janelamodal -->
-                <div id="janelaModal">
-                    <span id="btFechar">[x]</span>
-                    <img id="imgModal">
-                </div>
-            </div>
-        </div>
-
-
-            <!-- <div class="col-12 col-md-6">
-              <a href="https://www.google.com"  target="_blank">
-                <img src="./imgs/vrender_6 - Photo.jpg" width="100%" height="50%" alt="projeto 7">
-                <div class="projeto-banner-bugado">
-                  <p>Banheiro</p>
-                  <h3>Vanderlei</h3>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-md-6">
-              <a href="https://www.google.com" target="_blank">
-                <img src="./imgs/LIZ_ render banheiro FINAL.jpg" width="100%" height="50%" alt="projeto 8">
-                <div class="projeto-banner-bugado">
-                  <p>Banheiro</p>
-                  <h3>Liz</h3>
-                </div>
-
-              </a>
-            </div> -->
-        </div>
+            </div>        
+      </div>
     </section>
+  <!-- Modal -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./imgs/CAMILA_projeto dormitório renders_3 - Photo.jpg" class="modal-img" alt="modal img">
+        </div>
+      </div>
+    </div>
+  </div>
   </main>
   <!-- Footer -->
   <footer class="container-fluid bg-secondary-color" id="footer">
@@ -230,18 +171,4 @@
     </div>
   </footer>
 </body>
-<!-- Funcao Janelamodal -->
-<script> 
-    function clique(img){
-        var modalJanela=document.getElementById("janelaModal");
-        var modalImagem=document.getElementById("imgModal");
-        var modalBotao=document.getElementById("btFechar");
-
-        modalJanela.style.display="block";
-        modalImagem.src = img;
-        modalBotao.onclick=function(){
-        modalJanela.style.display="none";
-        }
-    }
-</script>
 </html>

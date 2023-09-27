@@ -223,7 +223,7 @@ p {
 }
 
 .gallery {
-	padding: 80px 0;
+	padding: 50px 0;
 }
 
 .gallery img {
@@ -231,8 +231,21 @@ p {
 	width: 100%;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 	cursor: pointer;
-	background-color: white;
+	background-color: #5c6641;
 }
+
+@media (max-width: 768px) {
+	.modal-content {
+		padding: 0; 
+		margin: 0;
+		-moz-transform:rotate(-90deg);
+		-webkit-transform:rotate(-90deg);
+		-ms-transform:rotate(-90deg);
+		transform: rotate(-90deg);
+		object-fit: cover;
+	  }
+}
+
 
 #gallery-modal .modal-img{
 	width: 100%;
@@ -323,73 +336,4 @@ p {
 #footer-bottom {
 	border-top: 20px solid #7a7a7a;
 	padding-top: 2em;
-}
-
-/* Janela Modal */
-#janelaModal {
-	display: none;
-	position: fixed;
-	z-index: 1;
-	padding-top: 70px;
-	left: 0px;
-	top: 0px;
-	max-width: 100%;
-	max-height: 100%;
-	background-color: rgba(0, 0, 0, 0.8);
-	overflow: auto;
-	-ms-overflow-style: none;
-  	scrollbar-width: none;
-	align-items: center;
-	justify-content: center;
-}
-
-#janelaModal::-webkit-scrollbar {
-	display: none;
-}
-
-#imgModal {
-	margin: auto;
-	display: block;
-	max-width: 90%;
-	max-height: 90%;
-
-}
-
-#btFechar {
-	position: absolute;
-	right: 45px;
-	color: #5c6641;
-	font-size: 40px;
-	font-weight: bold;
-	cursor: pointer;
-}
-
-@media (max-width: 768px) {
-	#btFechar{
-		font-size: 30px;
-		z-index: 1;
-		left: 4px;
-		top: 45px;
-	}
-
-	#imgModal {
-		margin: auto;
-		display: block;
-		max-height: 100%;
-		height: 100%;
-		width: 100%;
-		max-width: 100%;
-		-moz-transform:rotate(-90deg);
-        -webkit-transform:rotate(-90deg);
-        -ms-transform:rotate(-90deg);
-        transform: rotate(-90deg);
-	}
-
-	#janelaModal{
-		height: 100%;
-		width: 100%;
-		max-width: 100%;
-		max-height: 100%;
-	}
-	
 }
