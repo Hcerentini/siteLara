@@ -234,6 +234,10 @@ p {
 	background-color: #5c6641;
 }
 
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
 @media (max-width: 768px) {
 	.modal-content {
 		padding: 0; 
@@ -246,10 +250,6 @@ p {
 	  }
 }
 
-
-#gallery-modal .modal-img{
-	width: 100%;
-}
 
 /* Designer */
 #designer {
