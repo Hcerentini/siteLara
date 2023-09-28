@@ -194,9 +194,9 @@ p {
 .gallery img {
 	padding: 11px;
 	width: 100%;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
 	cursor: pointer;
-	background-color: #5c6641;
+	background-color: whitesmoke;
 }
 
 #gallery-modal .modal-img{
